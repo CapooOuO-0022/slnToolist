@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2acc242f4d934fe686db034e50c839dd" Name="Diagram1">
+        <EntityTypeShape EntityType="FEUNMLModel.place" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="FEUNMLModel.placeList" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FEUNMLModel.tag" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FEUNMLModel.tagRelation" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FEUNMLModel.user" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="FEUNMLModel.fk_tagRelation_place_1" ManuallyRouted="false" />
+        <AssociationConnector Association="FEUNMLModel.fk_placeList_user_1" ManuallyRouted="false" />
+        <AssociationConnector Association="FEUNMLModel.fk_tagRelation_tag_1" ManuallyRouted="false" />
+        <AssociationConnector Association="FEUNMLModel.fk_tagRelation_user_1" ManuallyRouted="false" />
+        <AssociationConnector Association="FEUNMLModel.placeRelation" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
